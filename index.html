@@ -59,7 +59,6 @@
             align-items: flex-start;
         }
 
-        /* PROFILE PICTURE */
         .profile-picture {
             display: block;
             width: 160px;
@@ -86,7 +85,8 @@
             margin-bottom: 12px;
         }
 
-        h1 span {
+        h1 span,
+        .section-title span {
             color: #60a5fa;
         }
 
@@ -111,6 +111,8 @@
             border-radius: 8px;
             text-decoration: none;
             font-weight: bold;
+            margin-top: 18px;
+            font-size: 14px;
         }
 
         .button:hover {
@@ -124,10 +126,6 @@
         .section-title {
             font-size: 30px;
             margin-bottom: 25px;
-        }
-
-        .section-title span {
-            color: #60a5fa;
         }
 
         .about-text {
@@ -231,8 +229,6 @@
 
     <main>
         <section class="hero" id="home">
-
-            <!-- YOUR PROFILE PICTURE -->
             <img
                 src="./profile.jpg"
                 alt="Vicente Catarinin Jr. Profile Picture"
@@ -300,17 +296,60 @@
             <div class="cards">
                 <div class="card">
                     <h3>Personal Portfolio</h3>
-                    <p>A responsive website built with HTML and CSS and published using GitHub Pages.</p>
+                    <p>
+                        A responsive website built with HTML and CSS
+                        and published using GitHub Pages.
+                    </p>
                 </div>
 
                 <div class="card">
                     <h3>Laboratory Resource Monitoring System</h3>
-                    <p>A school project using Java and MySQL to help monitor laboratory resources.</p>
+                    <p>
+                        A school project using Java and MySQL to help
+                        monitor laboratory resources.
+                    </p>
                 </div>
 
                 <div class="card">
                     <h3>Inventory Management Concept</h3>
-                    <p>A learning project concept for organizing product records and stock information.</p>
+                    <p>
+                        A learning project concept for organizing
+                        product records and stock information.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Inventory Management Template</h3>
+                    <p>
+                        An Excel-based inventory management project
+                        for organizing products and tracking stock.
+                    </p>
+
+                    <a
+                        class="button"
+                        href="https://d.docs.live.net/6e3fa452f8234fba/%E3%83%89%E3%82%AD%E3%83%A5%E3%83%A1%E3%83%B3%E3%83%88/Inventory_Management_Template1.xlsx"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        View Inventory Project ↗
+                    </a>
+                </div>
+
+                <div class="card">
+                    <h3>Inventory Stock-Out &amp; Balance Tracking</h3>
+                    <p>
+                        An Excel-based inventory tracking project for
+                        monitoring stock-outs and remaining inventory balances.
+                    </p>
+
+                    <a
+                        class="button"
+                        href="https://d.docs.live.net/6E3FA452F8234FBA/%E3%83%89%E3%82%AD%E3%83%A5%E3%83%A1%E3%83%B3%E3%83%88/Inventory_StockOut_Balance_Tracking.xlsx"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        View Stock-Out Project ↗
+                    </a>
                 </div>
             </div>
         </section>
